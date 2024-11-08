@@ -3,16 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package beans;
+import java.io.Serializable;
+import java.util.Objects;
 
 /**
  *
  * @author iagov
  */
-public class Pessoa {
-    private int id;
+public class Pessoa implements Serializable{
+    public int id;
     private String nome;
     private String sexo;
     private String idioma;
+
 
     public int getId() {
         return id;
@@ -21,6 +24,7 @@ public class Pessoa {
     public void setId(int id) {
         this.id = id;
     }
+
 
     public String getNome() {
         return nome;
@@ -45,8 +49,40 @@ public class Pessoa {
     public void setIdioma(String idioma) {
         this.idioma = idioma;
     }
-    public String toString(){
-        return this.id+" - "+this.nome;
+
+    @Override
+    public String toString() {
+        return this.id + " - " + this.nome;
     }
-    
+
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Pessoa other = (Pessoa) obj;
+        if (this.id != other.id) {
+            return false;
+        }
+        if (!Objects.equals(this.nome, other.nome)) {
+            return false;
+        }
+        if (!Objects.equals(this.sexo, other.sexo)) {
+            return false;
+        }
+        return Objects.equals(this.idioma, other.idioma);
+    }
+
+
+
+
+
+
 }
