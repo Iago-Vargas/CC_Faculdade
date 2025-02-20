@@ -47,5 +47,33 @@
  ### L¹ = {0, 10, 000, 010, 110, ...} //Representação por extensão
  ### L² = {w e(grego) {0,1}* | w tem prefixo 11}
 
+ ## Concatenação
+  ### w1 = abc
+  ### w2 = aa
+  ### w1 + w2 = abcaa
+ Associatividade: 
+  ### w1(w2w3) = (w1w2)w3
+  ### abc aab = abc aab
+ Elemento Neutro à Esquerda e à Direita:
+  ### e(vazio)w1 = eabc
+  ### w1 = abc
+  ### w1e = abce
+  obs: concatenação de duas palavras de uma determinada linguagem não necessariamente resulta em uma palavra desta mesma linguagem
+
+  ## Concatenação Sucessiva
+  ### a)
+  ### w ≠ e
+  ### w0 = e
+  ### w¹ = ab
+  ### w² = ww = abab
+  ### w³ = wwww = ababab
+  ###
+  ### b) 
+  ### w = e
+  ### w0 é indefinida
+  ### wn = e, para n > 0
+  
+ 
+  
 
 
