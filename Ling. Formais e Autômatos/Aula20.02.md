@@ -1,8 +1,8 @@
 # Linguagens Formais e Autômatos
 
- Pai da computação 1936 – Allan Turing
- Maquina de Estados Finitos tem a função de mostrar o comportamento de algo e reconhecer linguagens, a primeira foi criada por Allan que foi chamada de Máquina Universal.
- Chomsky: Gramáticas Formais fez protocolos de comunicações e modelos de sistemas com protocolos de comunicação.
+ ### Pai da computação 1936 – Allan Turing
+ ### Maquina de Estados Finitos tem a função de mostrar o comportamento de algo e reconhecer linguagens, a primeira foi criada por Allan que foi chamada de Máquina Universal.
+ ### Chomsky: Gramáticas Formais fez protocolos de comunicações e modelos de sistemas com protocolos de comunicação.
 
 # Terminologia
 ## Léxico 
@@ -27,25 +27,25 @@
 
 ## Palavra, Cadeia de caracteres ou Sentença
  É uma sequência finita de símbolos (do alfabeto) justapostos. Simbulo é o w (minusculo)
- e (grego) representa a palavra vazia (palavra sem simbulo)
- E* Represent todas as palavras possíveis sobre um E (Alfabeto)
- E*² = { e(grego), 01, 00, 10, 11, 0, 1, 000, 001... infinito}
- E+ representa todas palavras possíveis sobre o alfabeto excetuando, que é E+² = { 01, 00, 10, 11, 0, 1, 000...}
+ ### e (grego) representa a palavra vazia (palavra sem simbulo)
+ ### E* Represent todas as palavras possíveis sobre um E (Alfabeto)
+ ### E*² = { e(grego), 01, 00, 10, 11, 0, 1, 000, 001... infinito}
+ ### E+ representa todas palavras possíveis sobre o alfabeto excetuando, que é E+² = { 01, 00, 10, 11, 0, 1, 000...}
 
 ## Tamanho ou comprimento
  |W| representa tamanho ou comprimento de uma palavra
 
 ## Prefixo, Sufixo, Subpalavra
  Quest: w = 101 
- Prefixo (o que vem antes da palavra) dessa palavra seriam: 1, 10, 101 
- Sufixo (apos): 1, 01, 101 
- Subpalavra(qualquer parte): prefixos, sufixos e 0 
+ ### Prefixo (o que vem antes da palavra) dessa palavra seriam: 1, 10, 101 
+ ### Sufixo (apos): 1, 01, 101 
+ ### Subpalavra(qualquer parte): prefixos, sufixos e 0 
 
 ## Linguagem Formal
  Um conjunto de palavras sobre um alfabeto 
- L¹ = {w e(grego) E+ | E={0,1} e w tem sufixo 0} //Representação por compreensão
- L¹ = {0, 10, 000, 010, 110, ...} //Representação por extensão
- L² = {w e(grego) {0,1}* | w tem prefixo 11}
+ ### L¹ = {w e(grego) E+ | E={0,1} e w tem sufixo 0} //Representação por compreensão
+ ### L¹ = {0, 10, 000, 010, 110, ...} //Representação por extensão
+ ### L² = {w e(grego) {0,1}* | w tem prefixo 11}
 
 
 
