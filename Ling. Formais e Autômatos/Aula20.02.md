@@ -72,7 +72,9 @@
   ### w = e
   ### w0 é indefinida
   ### wn = e, para n > 0
-  
+
+  ### Autômato Finito
+  ## Fita de entrada
  
   
 
