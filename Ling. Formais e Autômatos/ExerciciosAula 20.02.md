@@ -1,3 +1,5 @@
+![{B157D56D-83F0-4107-B1A5-27B991234893}](https://github.com/user-attachments/assets/acbdd97b-1b5d-4dd1-a002-0a8608c25863)
+
 # 1- Seja E = {a, b, c} e w = aabc, encontre: a, b, c} e w = aabc, encontre:} e w = aabc} e w = aabc, encontre:, enc} e w = aabc, encontre:
 
 ## 1- E+ (Diferença é que não vai os vazios)
@@ -18,6 +20,15 @@
 ## 6- Subpalavras de w
 Prefixo, Sufixos, {ab, b}
 
+## 7- |w|4
+4 na potencia de 4 = 256
+
+## 8- w³
+aabcaabcaabc
+
+## 9- w0
+e
+
 # 2- Sejam as Linguagens Formais a seguir. Para c} e w = aabc, encontre:ada uma delas, enc} e w = aabc, encontre:ontre 3 palavras que pertenc} e w = aabc, encontre:em
 à linguagem:
 ∈ (Pertence) 
@@ -29,5 +40,6 @@ Prefixo, Sufixos, {ab, b}
 {abc, aabc, abcc}
 ## 4- Ld = { w ∈ {0,1}+|todo 0 é seguido de 1}
 {01, 001, 0111, 1111} 
+
 
 
