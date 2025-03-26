@@ -11,3 +11,11 @@
 <h2> 3 - Um exemplo de aplicação em um jogo eletrônico </h2>  
 
   - Um jogo de tiro em primeira pessoa (FPS), como Counter-Strike, usa IA para movimentação dos bots. O sistema de navegação (NavMesh no Unity ou Navigation System na Unreal) permite que os inimigos encontrem caminhos eficientes pelo mapa, evitando obstáculos e perseguindo jogadores de forma inteligente.
+
+<h2> 4- O que são </h2>
+
+ -
+
+<h2> 5- </h2>
+
+ -
