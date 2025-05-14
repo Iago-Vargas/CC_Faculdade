@@ -2,7 +2,7 @@
 <p> Em ProLog utilizamos uma lista [] combosta com números, letras e simbulos. São compostas por uma cabeça(head) e uma cauda(tail), sendo a cabeça o primeiro item e a cauda o restante podendo estar vazia ou não</p>
 <ul>
   <li> Uma lista não vazia seria [cabeça | cauda] </li>
-  <li> [H | T] = [ 1, 2, 3]. H = [1] & T = [ 2, 3] </li>
+  <li> [ H | T] = [ 1, 2, 3]. H = [1] & T = [ 2, 3] </li>
 </ul>
 <h2> Onde utilizar os Prolog?</h2>
 <ul>
